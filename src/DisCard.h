@@ -7,6 +7,7 @@
 #include <WiFi.h>
 #include <WiFiMulti.h>
 #include <HTTPClient.h>
+#include <WiFiClientSecure.h>
 #else
 #error "DisCard Only Works on ESP32 Based Cards"
 #endif
